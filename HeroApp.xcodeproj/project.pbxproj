@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5222FC62262F0FCD0000E6BC /* HeroAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222FC61262F0FCD0000E6BC /* HeroAppApp.swift */; };
+		5222FC64262F0FCD0000E6BC /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222FC63262F0FCD0000E6BC /* HeroView.swift */; };
+		5222FC66262F0FD00000E6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5222FC65262F0FD00000E6BC /* Assets.xcassets */; };
+		5222FC69262F0FD00000E6BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5222FC68262F0FD00000E6BC /* Preview Assets.xcassets */; };
+		5222FC75262F101A0000E6BC /* HeroData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222FC74262F101A0000E6BC /* HeroData.swift */; };
+		5222FC7D262F10400000E6BC /* HeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222FC7C262F10400000E6BC /* HeroRow.swift */; };
+		528A9111262F12DE00F1CF59 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A9110262F12DE00F1CF59 /* Hero.swift */; };
+		528A9115262F185400F1CF59 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A9114262F185400F1CF59 /* DetailView.swift */; };
+		528A9118262F186300F1CF59 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A9117262F186300F1CF59 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5222FC5E262F0FCD0000E6BC /* HeroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5222FC61262F0FCD0000E6BC /* HeroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAppApp.swift; sourceTree = "<group>"; };
+		5222FC63262F0FCD0000E6BC /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		5222FC65262F0FD00000E6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5222FC68262F0FD00000E6BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5222FC6A262F0FD00000E6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5222FC74262F101A0000E6BC /* HeroData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroData.swift; sourceTree = "<group>"; };
+		5222FC7C262F10400000E6BC /* HeroRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRow.swift; sourceTree = "<group>"; };
+		528A9110262F12DE00F1CF59 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		528A9114262F185400F1CF59 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		528A9117262F186300F1CF59 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5222FC5B262F0FCD0000E6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5222FC55262F0FCD0000E6BC = {
+			isa = PBXGroup;
+			children = (
+				5222FC60262F0FCD0000E6BC /* HeroApp */,
+				5222FC5F262F0FCD0000E6BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5222FC5F262F0FCD0000E6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC5E262F0FCD0000E6BC /* HeroApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5222FC60262F0FCD0000E6BC /* HeroApp */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC71262F0FF10000E6BC /* Data */,
+				5222FC7F262F10A00000E6BC /* App */,
+				5222FC80262F10B20000E6BC /* Supporting Files */,
+				5222FC67262F0FD00000E6BC /* Preview Content */,
+			);
+			path = HeroApp;
+			sourceTree = "<group>";
+		};
+		5222FC67262F0FD00000E6BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC68262F0FD00000E6BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5222FC71262F0FF10000E6BC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				528A9110262F12DE00F1CF59 /* Hero.swift */,
+				5222FC74262F101A0000E6BC /* HeroData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5222FC72262F0FF80000E6BC /* Sub View */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC7C262F10400000E6BC /* HeroRow.swift */,
+			);
+			path = "Sub View";
+			sourceTree = "<group>";
+		};
+		5222FC73262F10010000E6BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC63262F0FCD0000E6BC /* HeroView.swift */,
+				528A9114262F185400F1CF59 /* DetailView.swift */,
+				528A9117262F186300F1CF59 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5222FC7F262F10A00000E6BC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC73262F10010000E6BC /* View */,
+				5222FC72262F0FF80000E6BC /* Sub View */,
+				5222FC61262F0FCD0000E6BC /* HeroAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5222FC80262F10B20000E6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5222FC6A262F0FD00000E6BC /* Info.plist */,
+				5222FC65262F0FD00000E6BC /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5222FC5D262F0FCD0000E6BC /* HeroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5222FC6D262F0FD00000E6BC /* Build configuration list for PBXNativeTarget "HeroApp" */;
+			buildPhases = (
+				5222FC5A262F0FCD0000E6BC /* Sources */,
+				5222FC5B262F0FCD0000E6BC /* Frameworks */,
+				5222FC5C262F0FCD0000E6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroApp;
+			productName = HeroApp;
+			productReference = 5222FC5E262F0FCD0000E6BC /* HeroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5222FC56262F0FCD0000E6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5222FC5D262F0FCD0000E6BC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5222FC59262F0FCD0000E6BC /* Build configuration list for PBXProject "HeroApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5222FC55262F0FCD0000E6BC;
+			productRefGroup = 5222FC5F262F0FCD0000E6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5222FC5D262F0FCD0000E6BC /* HeroApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5222FC5C262F0FCD0000E6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222FC69262F0FD00000E6BC /* Preview Assets.xcassets in Resources */,
+				5222FC66262F0FD00000E6BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5222FC5A262F0FCD0000E6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528A9111262F12DE00F1CF59 /* Hero.swift in Sources */,
+				528A9115262F185400F1CF59 /* DetailView.swift in Sources */,
+				5222FC64262F0FCD0000E6BC /* HeroView.swift in Sources */,
+				5222FC62262F0FCD0000E6BC /* HeroAppApp.swift in Sources */,
+				5222FC7D262F10400000E6BC /* HeroRow.swift in Sources */,
+				528A9118262F186300F1CF59 /* ProfileView.swift in Sources */,
+				5222FC75262F101A0000E6BC /* HeroData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5222FC6B262F0FD00000E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5222FC6C262F0FD00000E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5222FC6E262F0FD00000E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/HeroApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uwaisalqadri.HeroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5222FC6F262F0FD00000E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/HeroApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uwaisalqadri.HeroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5222FC59262F0FCD0000E6BC /* Build configuration list for PBXProject "HeroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222FC6B262F0FD00000E6BC /* Debug */,
+				5222FC6C262F0FD00000E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5222FC6D262F0FD00000E6BC /* Build configuration list for PBXNativeTarget "HeroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222FC6E262F0FD00000E6BC /* Debug */,
+				5222FC6F262F0FD00000E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5222FC56262F0FCD0000E6BC /* Project object */;
+}
